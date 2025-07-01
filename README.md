@@ -73,12 +73,19 @@ Your project directory structure should now resemble this:
 
 your_project_folder/
 ├── main.py
+
 ├── tools.py
+
 ├── requirements.txt
+
 ├── .env
+
 ├── venv/ (This folder is created automatically by the virtual environment setup)
+
 └── images/
+
     ├── your_test_image1.jpg
+
     └── your_test_image2.png
 
 How to Run the Application
@@ -117,7 +124,11 @@ Safety First: The DIY home repair advice provided by this assistant is intended 
 
 For improvement to this model and integrating multiple different models (ie if you wanted to create a ML model trained on imaages of damages so the agent could accurately classify different types of damges (mould vs crack for example)) you can look into these images from roboflow that have image datasets:
 https://universe.roboflow.com/bharati-vidhypeeth-college-of-engineering-pune/brick-crack-detection-2
+
 https://universe.roboflow.com/project-kx3zs/wall-damage-monitoring
+
 https://universe.roboflow.com/image-uhpot/property_defects
+
 https://universe.roboflow.com/mould-detection/mould-detection-v3
+
 https://universe.roboflow.com/my-4lxv5/cracks-detection-qgvtg
